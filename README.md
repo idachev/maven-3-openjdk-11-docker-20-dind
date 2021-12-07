@@ -1,2 +1,2 @@
-# maven-3-openjdk-11-docker-20-dind
+# maven-3-openjdk-11-docker-client
 Maven with docker client
