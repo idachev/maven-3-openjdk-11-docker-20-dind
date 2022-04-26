@@ -27,6 +27,8 @@ for i in ${TAG_NAMES//,/ }; do
   break
 done
 
+cd "${DIR}"
+
 echo -e "\nBuilding with local first tag: ${TAG_NAME}\n"
 
 LOCAL_NAME="maven-3-openjdk-11-docker-client:${TAG_NAME}"
